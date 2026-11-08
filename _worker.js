@@ -5,10 +5,7 @@ import { connect } from "cloudflare:sockets";
 // ============================================
 const DEFAULT_LOCAL_PROXIES = [
   "bpb.yousef.isegaro.com",
-  "galaxytunnel.cloud-ip.cc",
-  "icook.tw",
-  "www.visa.com.sg"
-];
+  "galaxytunnel.cloud-ip.cc"];
 
 const DEFAULT_DOH_URL = ["https://cloudflare-dns.com/dns-query","https://dns.google/dns-query","https://dns.quad9.net/dns-query","https://dns.adguard-dns.com/dns-query"];
 const CONNECTION_TIMEOUT_MS = 30000; // 30 seconds timeout
@@ -960,7 +957,7 @@ function getGalaxyPage(data = {}) {
 </html>`;
 }
 
-// function getUnauthorizedPage() {
+function getUnauthorizedPage() {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
