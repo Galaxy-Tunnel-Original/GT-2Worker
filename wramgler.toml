@@ -1,0 +1,9 @@
+name = "gooflare" 
+pages_build_output_dir = "." # _worker.js ရှိသည့် Directory (Root ဖြစ်လျှင် ".")
+compatibility_date = "2024-03-20"
+compatibility_flags = [ "nodejs_compat" ]
+[vars]
+WS_PATH = "galaxy-tunnel"
+PROXYIP = "bpb.yousef.isegaro.com"
+UUID = "b2396b86-f607-4d56-82d0-246315d67367"
+DNS_RESOLVER_URL = ["https://cloudflare-dns.com/dns-query","https://dns.google.com/dns-query"]
